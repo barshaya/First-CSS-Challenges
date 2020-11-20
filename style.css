@@ -1,0 +1,26 @@
+
+header{
+    background-color:#E4F9F5;
+}
+h1{
+    font-family:'Sacramento';
+    color:#66BFBF;
+    font-size:30px;
+    text-align:center;
+    
+}
+h2,h3,h4,h5,h6,p{
+    font-family:'Montserrat';
+    color:#66BFBF;
+      font-size:12px;
+      text-align:center;
+     
+}
+.pro{
+    text-decoration:underline;
+}
+
+.bottomright{
+    margin-right:350px;
+    
+}

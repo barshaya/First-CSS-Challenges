@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsl(222, 26%, 31%);
+
+}
+
+.calc{
+
+    position: relative;
+    display: grid;    
+
+}
+
+.calc .showInput{
+    grid-column: span 4;
+    height : 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin:10px;
+    font-size:20px;
+    background:hsl(223, 31%, 20%);
+    border-radius: 15px;
+    border: none;
+}
+
+.btn{
+   display: grid;
+   width: 70px;
+   height: 50px;
+   padding: 5px;
+    margin:5px;
+   color:hsl(221, 14%, 31%);
+   background:hsl(30, 25%, 89%);
+   place-items: center;
+   border: 3px solid rgba(0,0,0,1); 
+   border-radius: 15px;
+   border-style: none;
+}
+
+
+.btn:hover{
+    background:hsl(28, 16%, 65%);
+    color: hsl(221, 14%, 31%);
+}
+
+
+
+.btn-2{
+    grid-column: span 2;
+    width : 120px;
+}
+
+.btn-even{
+    background-color:  hsl(6, 63%, 50%);
+    color:hsl(0, 0, 100%);
+}
+
+.btn-even:hover{
+    background-color: hsl(6, 70%, 34%);
+    color:hsl(0, 0, 100%);
+}
+
+.btn-delete{
+    background-color:  hsl(225, 21%, 49%);
+    color:hsl(0, 0, 100%);
+}
+
+.btn-delete:hover{
+    background-color: hsl(224, 28%, 35%)
+    ;
+    color:hsl(0, 0, 100%);
+}
